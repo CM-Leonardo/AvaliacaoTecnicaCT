@@ -10,12 +10,12 @@ Este repositório contém a resolução do desafio técnico proposto pela **Cote
 ---
 
 
-## 🐍 Script Python - Verificador de Palíndromos
+## Script Python - Verificador de Palíndromos
 Um script em Python que recebe uma única palavra, remove pontuações e espaços, converte tudo para minúsculo e verifica se é um palíndromo.
 Para isso, utiliza uma lógica de ponteiros duplos (dois índices que avançam em direções opostas) em vez de regex, tornando o algoritmo mais eficiente, direto e menos custoso em memória, já que não depende de expressões regulares ou processamento adicional de padrões.
 A abordagem é estruturalmente leve, clara e fácil de entender, atendendo perfeitamente a proposta de validação de palíndromos sem overhead.
 
-### ▶️ Como executar:
+### Como executar:
 1. Clone o projeto.
 2. Certifique-se de ter o Python instalado (versão 3.6 ou superior).
 3. Execute o script:
@@ -23,17 +23,17 @@ A abordagem é estruturalmente leve, clara e fácil de entender, atendendo perfe
 4. Digite uma única palavra quando solicitado.
 
 
-## 🧪 Teste automatizado com Cypress
+## Teste automatizado com Cypress
 
 O teste valida o funcionamento do botão "**Enviar**" em uma página simples.
 Para garantir estabilidade e evitar testes flaky, foi utilizado `cy.intercept` para simular uma requisição `GET (/api/page-data)` que representa o carregamento inicial da página. Assim, o teste só inicia após a resposta simulada, usando `cy.wait('@loadPageData')`, o que evita erros de sincronização e timeout.
 
-### ✔️ O que é testado:
+### O que é testado:
 - Visibilidade do botão
 - Clique no botão
 - Exibição da mensagem "Enviado com sucesso!"
 
-### ▶️ Como executar:
+### Como executar:
 1. Clone o projeto.
 2. Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
 3. Certifique-se que esteja na pasta `SendButton`.
@@ -47,7 +47,7 @@ Para garantir estabilidade e evitar testes flaky, foi utilizado `cy.intercept` p
 ![Execução do teste Cypress](https://github.com/CM-Leonardo/AvaliacaoTecnicaCT/blob/main/CypressRun.jpg)
 
 
-## 🧭 Teste Manual - Campo "Buscar"
+## Teste Manual - Campo "Buscar"
 O fluxograma de teste manual (em PDF) descreve cenários de validação do campo "**Buscar**", incluindo:
 - Busca com palavra válida
 - Busca com palavra inválida/inexistente
