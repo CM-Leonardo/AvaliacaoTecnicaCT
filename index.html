@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Teste Botão Enviar</title>
+</head>
+<body>
+  <h1>Simulação Campo Buscar</h1>
+
+  <button id="btn-enviar">Enviar</button>
+  <p id="mensagem"></p>
+
+  <script>
+    // Simula o carregamento de dados ao abrir a página
+    fetch('/api/page-data')
+      .then(response => response.json())
+      .then(data => {
+        console.log('Página carregada:', data);
+      })
+      .catch(err => console.error(err));
+
+    // Evento do botão
+    const btn = document.getElementById('btn-enviar');
+    btn.addEventListener('click', () => {
+      document.getElementById('mensagem').innerText = 'Enviado com sucesso!';
+    });
+  </script>
+</body>
+</html>
