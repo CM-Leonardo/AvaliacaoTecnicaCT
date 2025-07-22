@@ -16,10 +16,11 @@ Para isso, utiliza uma lógica de ponteiros duplos (dois índices que avançam e
 A abordagem é estruturalmente leve, clara e fácil de entender, atendendo perfeitamente a proposta de validação de palíndromos sem overhead.
 
 ### ▶️ Como executar:
-1. Certifique-se de ter o Python instalado (versão 3.6 ou superior).
-2. Execute o script:
+1. Clone o projeto.
+2. Certifique-se de ter o Python instalado (versão 3.6 ou superior).
+3. Execute o script:
   python palindromo.py
-3. Digite uma única palavra quando solicitado.
+4. Digite uma única palavra quando solicitado.
 
 
 ## 🧪 Teste automatizado com Cypress
@@ -33,13 +34,14 @@ Para garantir estabilidade e evitar testes flaky, foi utilizado `cy.intercept` p
 - Exibição da mensagem "Enviado com sucesso!"
 
 ### ▶️ Como executar:
-1. Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
-2. Instale as dependências:
+1. Clone o projeto.
+2. Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
+3. Instale as dependências:
   npm install
-3. Inicie um servidor local (ex: com Live Server) na pasta onde está o index.html.
-4. Rode o Cypress:
+4. Inicie um servidor local (ex: com Live Server) na pasta onde está o index.html.
+5. Rode o Cypress:
   npx cypress open
-5. Execute o teste sendbutton.spec.js.
+6. Execute o teste sendbutton.spec.js.
 
 ![Execução do teste Cypress](https://github.com/CM-Leonardo/AvaliacaoTecnicaCT/blob/main/SendButtonValidate.jpg)
 
