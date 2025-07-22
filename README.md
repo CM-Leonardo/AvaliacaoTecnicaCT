@@ -19,7 +19,7 @@ A abordagem é estruturalmente leve, clara e fácil de entender, atendendo perfe
 1. Clone o projeto.
 2. Certifique-se de ter o Python instalado (versão 3.6 ou superior).
 3. Execute o script:
-  python palindromo.py
+  `python palindromo.py`
 4. Digite uma única palavra quando solicitado.
 
 
