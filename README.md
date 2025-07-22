@@ -38,7 +38,7 @@ Para garantir estabilidade e evitar testes flaky, foi utilizado `cy.intercept` p
 2. Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
 3. Certifique-se que esteja na pasta `SendButton`.
 4. Instale as dependências:
-   `npm install`
+   `npm install` e `npx cypress install`
 5. Inicie um servidor local (ex: com Live Server) na pasta onde está o `index.html`.
 6. Rode o Cypress:
    `npx cypress open`
