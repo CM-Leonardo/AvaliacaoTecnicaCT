@@ -43,7 +43,7 @@ Para garantir estabilidade e evitar testes flaky, foi utilizado `cy.intercept` p
   npx cypress open
 6. Execute o teste sendbutton.spec.js.
 
-![Execução do teste Cypress](https://github.com/CM-Leonardo/AvaliacaoTecnicaCT/blob/main/SendButtonValidate.jpg)
+![Execução do teste Cypress]()
 
 
 ## 🧭 Teste Manual - Campo "Buscar"
