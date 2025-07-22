@@ -36,12 +36,13 @@ Para garantir estabilidade e evitar testes flaky, foi utilizado `cy.intercept` p
 ### ▶️ Como executar:
 1. Clone o projeto.
 2. Certifique-se de ter o [Node.js](https://nodejs.org/) instalado.
-3. Instale as dependências:
+3. Certifique-se que esteja na pasta SendButton.
+4. Instale as dependências:
    `npm install`
-4. Inicie um servidor local (ex: com Live Server) na pasta onde está o index.html.
-5. Rode o Cypress:
+5. Inicie um servidor local (ex: com Live Server) na pasta onde está o index.html.
+6. Rode o Cypress:
   npx cypress open
-6. Execute o teste sendbutton.spec.js.
+7. Execute o teste sendbutton.spec.js.
 
 ![Execução do teste Cypress](https://github.com/CM-Leonardo/AvaliacaoTecnicaCT/blob/main/CypressRun.jpg)
 
